@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Yellowtail&display=swap');
+
+* {
+    background-image: url('/img/0bb6dqsiab451.gif');
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+.texto1 {
+    color: pink;
+    text-align: center;
+    background-color: lightseagreen;
+    font-family: 'Yellowtail', cursive;
+}
+
+h1 {
+    background-color: lightseagreen;
+}
+
+a:hover {
+    color: red;
+}
+
+a {
+    font-size: 80px;
+}
+
+figure.imagem1 img {
+    border: 2px outset black;
+}
+
+#imgpos1 {
+    position: absolute;
+    left: 190px;
+}
+
+#imgpos2 {
+    position: absolute;
+    left: 520px;
+}
+
+#imgpos3 {
+    position: absolute;
+    left: 850px;
+}
+
+#imgpos4 {
+    position: absolute;
+    left: 520px;
+    top: 390px;
+}
+
+#imgpos5 {
+    position: absolute;
+    left: 690px;
+    top: 630px;
+}
+
+#imgpos6 {
+    position: absolute;
+    left: 360px;
+    top: 630px;
+}
+
+@media(max-width: 1030px) {
+
+    #imgpos1 {
+        position: absolute;
+        left: 50%;
+        top: 0%;
+        margin-left: -150px;
+        margin-top: 0px;
+    }
+
+    #imgpos2 {
+        position: absolute;
+        left: 50%;
+        top: 25%;
+        margin-left: -150px;
+        margin-top: 0px;
+    }
+
+    #imgpos3 {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        margin-left: -150px;
+        margin-top: 0px;
+    }
+
+    #imgpos4 {
+        position: absolute;
+        left: 50%;
+        top: 75%;
+        margin-left: -150px;
+        margin-top: 0px;
+    }
+
+    #imgpos5 {
+        width: 0px;
+        height: 0px;
+        position: absolute;
+        left: 50%;
+        top: 100%;
+        margin-left: 0px;
+        margin-top: 0px;
+    }
+
+    #imgpos6 {
+        width: 0;
+        height: 0;
+        position: absolute;
+        left: 50%;
+        top: 100%;
+        margin-left: 0px;
+        margin-top: 0px;
+    }
+}

@@ -1,0 +1,66 @@
+#page {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    display: grid;
+    width: 92%;
+    height: 92%;
+    grid-template-areas: "head head""nav main""foot foot";
+    grid-template-rows: 50px 890px 100px;
+    grid-template-columns: 261px 100%;
+}
+
+#page>header {
+    grid-area: head;
+    background-color: purple;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell,
+        'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 30px;
+}
+
+#page>nav {
+    grid-area: nav;
+    background-color: pink;
+    font-family: 'Yellowtail', cursive;
+}
+
+#zed {
+    text-decoration: none;
+    color: gold;
+}
+
+#evelyn {
+    text-decoration: none;
+    color: gold;
+}
+
+#fiora {
+    text-decoration: none;
+    color: gold;
+}
+
+#page>main {
+    grid-area: main;
+    background-color: rebeccapurple;
+}
+
+#page>footer {
+    grid-area: foot;
+    background-color: blueviolet;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 14px;
+    color: gold;
+
+}
+
+#page>nav>img {
+    background-image: none;
+}
+
+#page>nav>ul {
+    position: absolute;
+    left: 20px;
+    top: 50px;
+    color: deeppink;
+    font-size: 25px;
+}
